@@ -1,6 +1,10 @@
 doctype html
-html
+html(ng-app='Vidzy')
   head
+    script(src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js')
+    script(src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-resource.js')
+    script(src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js')
+    script(src='/javascripts/vidzy.js')
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
